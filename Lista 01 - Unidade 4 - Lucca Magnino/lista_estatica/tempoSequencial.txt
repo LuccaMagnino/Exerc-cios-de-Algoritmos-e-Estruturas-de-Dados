@@ -1,0 +1,35 @@
+Para a inserção de N elementos no início da lista:
+N = 100 - 0.005
+N = 500 - 0.125
+N = 1000 - 0.503
+N = 5000 - 12.502
+N = 10000 - 50.005
+N = 50000 - 1250.152
+N = 100000 - 5000.505
+N = 500000 - 12502.513
+
+Pertence a classe de complexidade: O(N²)
+
+Para a inserção de N elementos no final da lista:
+N = 100 - 0.001
+N = 500 - 0.005
+N = 1000 - 0.011
+N = 5000 - 0.053
+N = 10000 - 0.107
+N = 50000 - 0.516
+N = 100000 - 1.067
+N = 500000 - 5.119
+
+Pertence a classe de complexidade: O(N)
+
+Para a consulta de N elementos da lista:
+N = 100 - 0.001
+N = 500 - 0.005
+N = 1000 - 0.013
+N = 5000 - 0.056
+N = 10000 - 0.103
+N = 50000 - 0.507
+N = 100000 - 1.114
+N = 500000 - 5.569
+
+Pertence a classe de complexidade: O(N)

@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Depurar Merge Sort",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/ordenacao_quick_merge/mergesort.exe", // Altere se o executável tiver outro nome
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/ordenacao_quick_merge",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb", // Use "lldb" se estiver no macOS
+            "miDebuggerPath": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Habilitar a formatacao para variaveis",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

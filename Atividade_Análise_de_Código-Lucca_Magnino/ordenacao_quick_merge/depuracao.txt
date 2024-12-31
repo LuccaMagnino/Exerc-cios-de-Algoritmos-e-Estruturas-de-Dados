@@ -1,0 +1,41 @@
+RELATÓRIO DESCRITIVO MERGE SORT:
+
+Dentro do .zip enviado contém os arquivos .json utilizados para a depuração do código, 
+além do .exe e desse .txt. Realizei alguns comentário no código mergesort.c para 
+explicar o funcionamento do programa, entretanto segue o relatório completo:
+
+
+O programa utiliza o método de ordenação Merge Sort, consistindo em dividir o vetor e, após essa operação,
+realizar a ordenação, ou seja, "dividir para conquistar". A aplicação é composta por três principais funcões
+a printfVet, a merge e a mergeSort. Segue a explicação das 3:
+
+1- Função printfVet
+
+    -As entradas: um ponteiro vetor e tamanho do vetor;
+    -Imprime o vetor completo e separa (pula uma linha);
+
+2- Função merge
+
+    -As entradas: um ponteiro vetor, o valor do comeco,
+    o valor do "meio" e o valor fim do vetor;
+    -Aloca um vetor temporário com o objetivo de copiar
+    uma metade do vetor completo e combina-la a outra 
+    metade;
+
+3- Função mergeSort
+
+    -As entradas: um ponteiro para o vetor, o valor
+    do inicio e o valor do fim do vetor;
+    -Divide o vetor em dois ate ter o tamanho 1 e, por 
+    meio de recursividade, encontra o valor do meio do
+    vetor para a divisão.
+
+Além disso, há a função main, chamando todas as outras funções para a 
+impressão correta. A saída do código foi a seguinte:
+
+Sem ordenar:
+ 0 23  4 67 -8 90 54 21 
+Ordenado:
+-8  0  4 21 23 54 67 90 
+
+[Done] exited with code=0 in 0.799 seconds = indica o tempo para rodar o programa;
